@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\Skeleton\Facades;
+namespace FastofiCorp\FilamentDiagrams\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \VendorName\Skeleton\Skeleton
+ * @see \FastofiCorp\FilamentDiagrams\FilamentDiagrams
  */
-class Skeleton extends Facade
+class FilamentDiagrams extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \VendorName\Skeleton\Skeleton::class;
+        return \FastofiCorp\FilamentDiagrams\FilamentDiagrams::class;
     }
 }

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
+    "name": "fastofi-corp/filament-diagrams",
     "description": ":package_description",
     "keywords": [
-        ":vendor_name",
+        "fastofiCorp",
         "laravel",
-        ":package_slug"
+        "filament-diagrams"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/fastofi-corp/filament-diagrams",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": ":Alvaro Leon",
+            "email": "alvaroleon@fastoficorp.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "FastofiCorp\\FilamentDiagrams\\": "src/",
+            "FastofiCorp\\FilamentDiagrams\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "FastofiCorp\\FilamentDiagrams\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "FastofiCorp\\FilamentDiagrams\\FilamentDiagramsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentDiagrams": "FastofiCorp\\FilamentDiagrams\\Facades\\FilamentDiagrams"
             }
         }
     },

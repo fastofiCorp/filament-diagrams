@@ -1,6 +1,4 @@
 <?php
 
-// config for VendorName/Skeleton
-return [
-
-];
+// config for FastofiCorp/FilamentDiagrams
+return [];
