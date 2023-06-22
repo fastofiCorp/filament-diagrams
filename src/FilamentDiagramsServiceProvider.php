@@ -10,11 +10,8 @@ class FilamentDiagramsServiceProvider extends PluginServiceProvider
     public static string $name = 'filament-diagrams';
 
     protected array $scripts = [
-        'plugin-filament-diagrams' => __DIR__ . '/../resources/js/index.js',
+        'plugin-filament-diagrams' => __DIR__.'/../resources/js/index.js',
     ];
-
-
-
 
     public function configurePackage(Package $package): void
     {
