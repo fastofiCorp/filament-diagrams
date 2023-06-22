@@ -1,6 +1,6 @@
 {
     "name": "fastofi-corp/filament-diagrams",
-    "description": ":package_description",
+    "description": "A plugin to add a Diagram style Input for FilamentPHP",
     "keywords": [
         "fastofiCorp",
         "laravel",
