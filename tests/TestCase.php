@@ -2,9 +2,9 @@
 
 namespace FastofiCorp\FilamentDiagrams\Tests;
 
+use FastofiCorp\FilamentDiagrams\FilamentDiagramsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use FastofiCorp\FilamentDiagrams\FilamentDiagramsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'FastofiCorp\\FilamentDiagrams\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'FastofiCorp\\FilamentDiagrams\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

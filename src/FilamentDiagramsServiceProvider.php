@@ -2,20 +2,16 @@
 
 namespace FastofiCorp\FilamentDiagrams;
 
-
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
 class FilamentDiagramsServiceProvider extends PluginServiceProvider
 {
-
     public static string $name = 'filament-diagrams';
 
     protected array $scripts = [
         'plugin-filament-diagrams' => __DIR__ . '/../resources/js/index.js',
     ];
-
-
 
 
 
